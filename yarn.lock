@@ -17,10 +17,10 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
-"@nebulario/tracker-common@1.70.1-web-setup-prod":
-  version "1.70.1-web-setup-prod"
-  resolved "https://registry.yarnpkg.com/@nebulario/tracker-common/-/tracker-common-1.70.1-web-setup-prod.tgz#bda8cd46aa73fe9ae52c42e9755ecf100dd3cb7e"
-  integrity sha512-ExmbIJKywZVtKxBP2qfbcrk6P4vBZ12kSKuw3UDDnbvPJNAzwA9WWlfFknJ3kxKNE5sTVrgNlSGMV7vgqEBMeA==
+"@nebulario/tracker-common@1.70.0-master":
+  version "1.70.0-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-common/-/tracker-common-1.70.0-master.tgz#fc8b5f0b561007e055810b6edfcbbca040bbe228"
+  integrity sha512-hpUyDDXpJq01SQQZCd3zbLBHKh46ozBEJFuBxdltTl2Ze+k27cEF5cAIpx5MfB4V639iSC4p1XwIZgRGnoT/Sg==
   dependencies:
     "@nebulario/tracker-lang" "1.70.0-master"
     "@nebulario/tracker-layout" "1.70.0-master"
@@ -145,10 +145,10 @@
     lodash "^4.17.4"
     uuid "^3.3.2"
 
-"@nebulario/tracker-stateful-server@1.70.1-web-setup-prod":
-  version "1.70.1-web-setup-prod"
-  resolved "https://registry.yarnpkg.com/@nebulario/tracker-stateful-server/-/tracker-stateful-server-1.70.1-web-setup-prod.tgz#b7e6ed76287ccc54bbfff8552c6ddd9fb5c410da"
-  integrity sha512-MVcHwMj1Vw9e/yG76bP62UhazeeP5oRHMscu96g7vxFtkIARi+4kFv4oitcr9bWEC9dJohwpgK1HagVWyUNU8w==
+"@nebulario/tracker-stateful-server@1.70.1-master":
+  version "1.70.1-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-stateful-server/-/tracker-stateful-server-1.70.1-master.tgz#791c6a475334a25d6a6025f2fc330ace66fa040f"
+  integrity sha512-HrMqTIkmyXccOK6q/1fDYh5CFYKxBCG5y5PqehAq3o9L6y0Z31N81bOg6VWRsmbalU4mSBMYctxeK0Ff8NCb1Q==
   dependencies:
     babel-runtime "^6.26.0"
     lodash "^4.17.11"
@@ -164,12 +164,12 @@
     recompose "^0.30.0"
     redux-actions "^2.6.4"
 
-"@nebulario/tracker-web@1.70.1-web-setup-prod":
-  version "1.70.1-web-setup-prod"
-  resolved "https://registry.yarnpkg.com/@nebulario/tracker-web/-/tracker-web-1.70.1-web-setup-prod.tgz#64d812f24f5489990878cca770b23ba7206071c4"
-  integrity sha512-XtQAaOUpykRmNimI1u+E6D+/iemD7PNNdx90rd2SLRNtxZUD4AWpOnag3QUCCX6tUU9pn9voyvD2bBoFfMTr3w==
+"@nebulario/tracker-web@1.70.0-master":
+  version "1.70.0-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-web/-/tracker-web-1.70.0-master.tgz#877921b0fc987bae724841a4db538b0b8d8a8ce0"
+  integrity sha512-VCUFG1og5OM77g9h6PJyvEtKoM7CjrRA5IH9vf6xV/aASI7p1GTbFcJaD41pza/EVC/UDp7xdsCEXKogC8P0aA==
   dependencies:
-    "@nebulario/tracker-common" "1.70.1-web-setup-prod"
+    "@nebulario/tracker-common" "1.70.0-master"
     "@nebulario/tracker-dll-apollo" "1.70.0-master"
     "@nebulario/tracker-dll-react" "1.70.0-master"
     "@nebulario/tracker-dll-redux" "1.70.0-master"
