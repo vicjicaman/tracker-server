@@ -17,24 +17,62 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
-"@nebulario/tracker-app-events@1.70.2-common-ui-pkg-dev":
-  version "1.70.2-common-ui-pkg-dev"
-  resolved "https://registry.yarnpkg.com/@nebulario/tracker-app-events/-/tracker-app-events-1.70.2-common-ui-pkg-dev.tgz#a13d2e5ad62ae95a1dd70bae98f3f02fbdfacef4"
-  integrity sha512-MHAvHADnUJwj6DD8mRXXx0rIktS6X7EbTqQ6BP9X6ieznD8xZGaULHOSBKw/Hhls8XWA19XtutGIGZ7kthjJ+g==
+"@nebulario/tracker-app-events@1.70.5-common-ui-pkg-prod":
+  version "1.70.5-common-ui-pkg-prod"
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-app-events/-/tracker-app-events-1.70.5-common-ui-pkg-prod.tgz#468f662160a55e28da14ba0d84666c6f35a8e826"
+  integrity sha512-tMGX6qFvWCVXix1GcyuUVEf6KufmgR6xGlOXHAv3SH6MDZl3EDIfU+f1UAGuoI3/Cv+6FNqsyDyugENLDL8TAg==
   dependencies:
     performance-now "^2.1.0"
 
-"@nebulario/tracker-app-events@link:../tracker-app-events":
-  version "0.0.0"
-  uid ""
+"@nebulario/tracker-app-form@1.70.2-common-ui-pkg-prod":
+  version "1.70.2-common-ui-pkg-prod"
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-app-form/-/tracker-app-form-1.70.2-common-ui-pkg-prod.tgz#dbb9835df18b2bad5a382d62b38ec79da79cf92a"
+  integrity sha512-CbwmXU3TItltMzgEdnMAaKYpNcnJNsAhPK4SG0qI3za38CyT5jCSX6LTFBONePDnnzCVQB16n/PC5aBfXUZdrA==
+  dependencies:
+    performance-now "^2.1.0"
+    validator "^10.7.1"
 
-"@nebulario/tracker-app-ui@link:../tracker-app-ui":
-  version "0.0.0"
-  uid ""
+"@nebulario/tracker-app-modal@1.70.2-common-ui-pkg-prod":
+  version "1.70.2-common-ui-pkg-prod"
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-app-modal/-/tracker-app-modal-1.70.2-common-ui-pkg-prod.tgz#8d83c24f33575d160f575fd2d2302c4dbcabadf4"
+  integrity sha512-F4VCjRE9NnyFXmyBYcaleblshewZjMSsv702loKpLUrNVAxo8y3zMXeeEmX8ZZvHTRKTp1BjfL2sFTSMD4oxBw==
+  dependencies:
+    performance-now "^2.1.0"
 
-"@nebulario/tracker-common@link:../tracker-common":
-  version "0.0.0"
-  uid ""
+"@nebulario/tracker-app-stream@1.70.2-common-ui-pkg-prod":
+  version "1.70.2-common-ui-pkg-prod"
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-app-stream/-/tracker-app-stream-1.70.2-common-ui-pkg-prod.tgz#ee1e18fd71a291f11926826de84c2fae88307939"
+  integrity sha512-sVwoB3TFZx5i+KK60HOJdGVvKnX/FyF6Co3cbgoKKLcGo1NZwgeKbodmhdXJgkTTWmMDFGyv1UFivFxqoBgLLw==
+  dependencies:
+    "@nebulario/tracker-app-events" "1.70.5-common-ui-pkg-prod"
+    "@nebulario/tracker-app-ui" "1.70.2-common-ui-pkg-prod"
+    performance-now "^2.1.0"
+
+"@nebulario/tracker-app-ui@1.70.2-common-ui-pkg-prod":
+  version "1.70.2-common-ui-pkg-prod"
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-app-ui/-/tracker-app-ui-1.70.2-common-ui-pkg-prod.tgz#87633142f4021aced0f0b5d779c3593292db4c2b"
+  integrity sha512-8/OygNS6FDjnNWlkaimPst7aWII0bO/Iq1JRgulOWI4koofKPDGEewXH1/GXx+Ml769lEVuviAZnyg514GF92g==
+  dependencies:
+    moment "^2.22.1"
+    performance-now "^2.1.0"
+
+"@nebulario/tracker-common@1.70.5-common-ui-pkg-prod":
+  version "1.70.5-common-ui-pkg-prod"
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-common/-/tracker-common-1.70.5-common-ui-pkg-prod.tgz#b1b753275414e39b408331429f835a84f1fd1bc9"
+  integrity sha512-sKZxpykaed64QM5TQ3EblFY+dw4YRZtxrqoUPtJbexNaZCvhbBIHvNDMFlb5YhIewvT8DIR6mn0Yrb4Dyke8tA==
+  dependencies:
+    "@nebulario/tracker-app-events" "1.70.5-common-ui-pkg-prod"
+    "@nebulario/tracker-app-form" "1.70.2-common-ui-pkg-prod"
+    "@nebulario/tracker-app-modal" "1.70.2-common-ui-pkg-prod"
+    "@nebulario/tracker-app-stream" "1.70.2-common-ui-pkg-prod"
+    "@nebulario/tracker-app-ui" "1.70.2-common-ui-pkg-prod"
+    "@nebulario/tracker-lang" "1.70.0-master"
+    "@nebulario/tracker-layout" "1.70.0-master"
+    "@nebulario/tracker-notify" "1.70.0-master"
+    performance-now "^2.1.0"
+    react-bootstrap-typeahead "^3.1.3"
+    uuid "^3.3.2"
+    validator "^10.7.1"
 
 "@nebulario/tracker-dll-apollo@1.70.0-master":
   version "1.70.0-master"
@@ -197,20 +235,20 @@
     lodash "^4.17.4"
     uuid "^3.3.2"
 
-"@nebulario/tracker-stateful-server@1.70.2-common-ui-pkg-dev":
-  version "1.70.2-common-ui-pkg-dev"
-  resolved "https://registry.yarnpkg.com/@nebulario/tracker-stateful-server/-/tracker-stateful-server-1.70.2-common-ui-pkg-dev.tgz#93bf1d725b9541d47559bc1e6b1a388f0ff46a60"
-  integrity sha512-Ux5Mm7wgqtbCqv1Q38UTjL2I8Y6w0SUbX0j8Uv5ALw9oU0YG0z7YPsU5qcGrZDHDpfYVHtT8rUJejY7ikeGi9w==
+"@nebulario/tracker-stateful-server@1.70.5-common-ui-pkg-prod":
+  version "1.70.5-common-ui-pkg-prod"
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-stateful-server/-/tracker-stateful-server-1.70.5-common-ui-pkg-prod.tgz#b52ce4a4112519a97ff6dd27ec4051b61656a178"
+  integrity sha512-+WkSDwUSYjI4QZbhe5ge51ljgJBO/lvoVbP9nv4/DdWdj/CVLKvwLyY19SazY8u8PJPYEfBUkN7SJjoU8Vl0JA==
   dependencies:
     babel-runtime "^6.26.0"
     lodash "^4.17.11"
 
-"@nebulario/tracker-stateful-web@1.70.2-common-ui-pkg-dev":
-  version "1.70.2-common-ui-pkg-dev"
-  resolved "https://registry.yarnpkg.com/@nebulario/tracker-stateful-web/-/tracker-stateful-web-1.70.2-common-ui-pkg-dev.tgz#512c2ab4db909d3a6dfafc57eee5e2ddcd2001c7"
-  integrity sha512-0EWV9dNkiHxW7Jsmkyxw9/e6oBErVxFVdachZlnabXfxt+glsl7mx8E6vt8JJ/2yi+ixvtKCbk5huiL2Pn+apQ==
+"@nebulario/tracker-stateful-web@1.70.5-common-ui-pkg-prod":
+  version "1.70.5-common-ui-pkg-prod"
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-stateful-web/-/tracker-stateful-web-1.70.5-common-ui-pkg-prod.tgz#9538d5d8dbde8938c245c2fe71a779e2e068cb1c"
+  integrity sha512-ypmKPF7o+vtD0cGbHS4vEAsWQy1Alw/4xk3L7MiX2Da3EffI5+YHNM18O2DyasXBroKleYSqtRUGdPnwY065XA==
   dependencies:
-    "@nebulario/tracker-app-events" "1.70.2-common-ui-pkg-dev"
+    "@nebulario/tracker-app-events" "1.70.5-common-ui-pkg-prod"
     apollo-link-state "^0.4.1"
     babel-runtime "^6.26.0"
     lodash "^4.17.11"
@@ -226,9 +264,19 @@
     lodash "^4.17.4"
     uuid "^3.3.2"
 
-"@nebulario/tracker-web@link:../tracker-web":
-  version "0.0.0"
-  uid ""
+"@nebulario/tracker-web@1.70.5-common-ui-pkg-prod":
+  version "1.70.5-common-ui-pkg-prod"
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-web/-/tracker-web-1.70.5-common-ui-pkg-prod.tgz#450255a06b1d5dc24d2912ae745d84fe3114e0a0"
+  integrity sha512-bm6eZ/d7c0ldCJrFy45JbYoZ+74TNtn/s75dHLF5fZOConyAe22BTlU1AfGng0XxbwVIZBcWTzdDLwi+2UUPBQ==
+  dependencies:
+    "@nebulario/tracker-common" "1.70.5-common-ui-pkg-prod"
+    "@nebulario/tracker-dll-apollo" "1.70.0-master"
+    "@nebulario/tracker-dll-react" "1.70.0-master"
+    "@nebulario/tracker-dll-redux" "1.70.0-master"
+    "@nebulario/tracker-dll-utils" "1.70.0-master"
+    "@nebulario/tracker-dll-vendor" "1.70.0-master"
+    "@nebulario/tracker-graph" "1.70.1-master"
+    "@nebulario/tracker-stateful-web" "1.70.5-common-ui-pkg-prod"
 
 "@types/node@>=6":
   version "12.0.8"
