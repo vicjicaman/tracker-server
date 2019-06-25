@@ -60,8 +60,8 @@
     "@nebulario/tracker-dll-redux": "1.70.0-master",
     "@nebulario/tracker-dll-utils": "1.70.0-master",
     "@nebulario/tracker-dll-vendor": "1.70.0-master",
-    "@nebulario/tracker-common": "1.70.0-master",
-    "@nebulario/tracker-web": "1.70.0-master",
+    "@nebulario/tracker-common": "link:./../tracker-common",
+    "@nebulario/tracker-web": "link:./../tracker-web",
     "compression": "^1.7.3",
     "dotenv": "^6.2.0"
   },
