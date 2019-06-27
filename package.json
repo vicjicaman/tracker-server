@@ -1,6 +1,6 @@
 {
   "name": "@nebulario/tracker-server",
-  "version": "1.70.2-master",
+  "version": "1.70.0-release-pkg-prod",
   "description": "Base for modules in node.",
   "main": "./dist/index.js",
   "repository": "github.com:vicjicaman/tracker-server.git",
@@ -60,8 +60,8 @@
     "@nebulario/tracker-dll-redux": "1.70.1-master",
     "@nebulario/tracker-dll-utils": "1.70.1-master",
     "@nebulario/tracker-dll-vendor": "1.70.1-master",
-    "@nebulario/tracker-common": "1.70.2-master",
-    "@nebulario/tracker-web": "1.70.2-master",
+    "@nebulario/tracker-common": "1.70.0-release-pkg-prod",
+    "@nebulario/tracker-web": "1.70.0-release-pkg-prod",
     "compression": "^1.7.3",
     "dotenv": "^6.2.0"
   },
