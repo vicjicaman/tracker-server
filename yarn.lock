@@ -56,10 +56,10 @@
     moment "^2.22.1"
     performance-now "^2.1.0"
 
-"@nebulario/tracker-common@1.70.1-release-public-pkg-service-prod":
-  version "1.70.1-release-public-pkg-service-prod"
-  resolved "https://registry.yarnpkg.com/@nebulario/tracker-common/-/tracker-common-1.70.1-release-public-pkg-service-prod.tgz#245dea7635954b6064edc7348f6ffbe275abce4c"
-  integrity sha512-AuRQcQbO4w1NUgUrnJgh4MHpB+V2fivgKK2PlCqtxZyORIbYCHenFmXoE4ENfoPnwWDbtX4DfW1gnLI8UEjQKw==
+"@nebulario/tracker-common@1.70.4-master":
+  version "1.70.4-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-common/-/tracker-common-1.70.4-master.tgz#2eaa413b63f8444d4f37a38d121a142c4ff58d96"
+  integrity sha512-F2GCUmfWnjcJbb70X/P7KzQcyT6ENLzAbsKKo0mP89SCCo9TE4SSW2/hXpK8kVsl9kZWHPIZbzi4YJCnZsNTWw==
   dependencies:
     "@nebulario/tracker-app-events" "1.70.3-master"
     "@nebulario/tracker-app-form" "1.70.2-master"
@@ -264,12 +264,12 @@
     lodash "^4.17.4"
     uuid "^3.3.2"
 
-"@nebulario/tracker-web@1.70.1-release-public-pkg-service-prod":
-  version "1.70.1-release-public-pkg-service-prod"
-  resolved "https://registry.yarnpkg.com/@nebulario/tracker-web/-/tracker-web-1.70.1-release-public-pkg-service-prod.tgz#753d526597a9393e56c268f338bbab01ecd43214"
-  integrity sha512-YiHOY0v7IZJ0Z6MsDgYA8oX7sm73CpMPUA2XAU3hzyAX2l0RxYa5psGZYghft66RmgviemVFF6w4Dopf2FyvUg==
+"@nebulario/tracker-web@1.70.4-master":
+  version "1.70.4-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-web/-/tracker-web-1.70.4-master.tgz#60f8c3ee872b6eda6b4830f28a9f3f225250ae05"
+  integrity sha512-pxqyuBBoLR4ww4jQ0ZqSC3JJOCrDwAn7eFILEogWwzwjXhF3fx2QkTmXSvO8ls46gae2tnGlt3xmRJ0pKdTCzA==
   dependencies:
-    "@nebulario/tracker-common" "1.70.1-release-public-pkg-service-prod"
+    "@nebulario/tracker-common" "1.70.4-master"
     "@nebulario/tracker-dll-apollo" "1.70.2-master"
     "@nebulario/tracker-dll-react" "1.70.2-master"
     "@nebulario/tracker-dll-redux" "1.70.2-master"
